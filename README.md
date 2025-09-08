@@ -29,7 +29,7 @@ The program creates a linked list where:
 ---
 
 ## 🔀 GitHub Collaboration
-- **Repository Name:** `linked-list-team-<teamName>`
+- **Repository Name:** `HAHAH`
 - **Workflow:**
   1. Each teammate created a branch using their roll number.
   2. Contributed small features (insertion, display, comments).
@@ -39,8 +39,8 @@ The program creates a linked list where:
 ---
 
 ## 🎨 Figma Diagrams
-- **Diagram File:** [`figma-diagrams/linked_list_diagram.png`](figma-diagrams/linked_list_diagram.png)  
-- **Public Figma Link:** [View Diagram](https://www.figma.com/file/xxxxx/linked-list-diagram)
+- **Diagram File:** [`[figma-diagrams/linked_list_diagram.png`](figma-diagrams/linked_list_diagram.png](https://www.figma.com/design/bgFi4sUR8xhhzqdrJYJA3T/Untitled?node-id=0-1&p=f&t=hfkFim0ejPAuJUQI-0))  
+- **Public Figma Link:** [View Diagram]([https://www.figma.com/file/xxxxx/linked-list-diagram](https://www.figma.com/design/bgFi4sUR8xhhzqdrJYJA3T/Untitled?node-id=0-1&t=hfkFim0ejPAuJUQI-1))
 
 ---
 
@@ -60,10 +60,10 @@ Contents:
 ## 👥 Team Contributions
 | Member              | Roll No | Contribution                          |
 |---------------------|---------|---------------------------------------|
-| Richan Jose         |   48    | Repo setup + Insertion function       |
-| Akash Mathew Thomas |   06    | Display function + Code improvements  |
-| Josemon Tomy        |   34    | Figma diagram + Report preparation    |
-| Richu Francis Se.etc|   49    | Testing + Documentation updates       |
+| Richan Jose         |   101   | Repo setup + Insertion function       |
+| Akash Mathew Thomas |   102   | Display function + Code improvements  |
+| Josemon Tomy        |   103   | Figma diagram + Report preparation    |
+| Richu Francis Se.etc|   104   | Testing + Documentation updates       |
 
 
 ---
