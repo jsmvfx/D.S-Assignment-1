@@ -23,6 +23,9 @@ The program creates a linked list where:
 ### Sample Output
 
 
+
+*(Replace 101, 102, 103 with your actual roll numbers)*
+
 ---
 
 ## 🔀 GitHub Collaboration
@@ -55,12 +58,13 @@ Contents:
 ---
 
 ## 👥 Team Contributions
-| Member   | Roll No | Contribution |
-|----------|---------|--------------|
-| Alice    | 101     | Repo setup + Insertion function |
-| Bob      | 102     | Display function |
-| Carol    | 103     | Figma diagrams |
-| Dan      | 104     | Report writing |
+| Member              | Roll No | Contribution                          |
+|---------------------|---------|---------------------------------------|
+| Richan Jose         |   48    | Repo setup + Insertion function       |
+| Akash Mathew Thomas |   06    | Display function + Code improvements  |
+| Josemon Tomy        |   34    | Figma diagram + Report preparation    |
+
+
 
 ---
 
@@ -72,3 +76,4 @@ Through this project, we learned:
 - The importance of **teamwork** in software development.
 
 ---
+
