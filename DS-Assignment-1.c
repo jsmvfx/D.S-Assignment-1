@@ -45,12 +45,13 @@ int main() {
     struct Node* head = NULL;
 
     // Replace with your team’s roll numbers
-    insertEnd(&head, 101); // your roll no
-    insertEnd(&head, 102); // teammate 1
-    insertEnd(&head, 103); // teammate 2
-    insertEnd(&head, 104); // teammate 3
+    insertEnd(&head, 34); // your roll no
+    insertEnd(&head, 06); // teammate 1
+    insertEnd(&head, 48); // teammate 2
+    insertEnd(&head, 49); // teammate 3
 
     displayList(head);
 
     return 0;
 }
+
