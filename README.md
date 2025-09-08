@@ -63,7 +63,7 @@ Contents:
 | Richan Jose         |   48    | Repo setup + Insertion function       |
 | Akash Mathew Thomas |   06    | Display function + Code improvements  |
 | Josemon Tomy        |   34    | Figma diagram + Report preparation    |
-
+| Richu Francis Se.etc|   49    | Testing + Documentation updates       |
 
 
 ---
