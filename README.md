@@ -48,7 +48,8 @@ d_list_diagram.png](https://www.figma.com/design/bgFi4sUR8xhhzqdrJYJA3T/Untitled
 
 ## 📑 Report
 Final report (PDF) is available here:  
-➡️ [`report/final_report.pdf`](report/final_report.pdf)
+➡️ [`report/final_report.pdf`]()[Documentation.docx](https://github.com/user-attachments/files/22250886/Documentation.docx)
+
 
 Contents:
 - GitHub Repo Link
@@ -69,8 +70,7 @@ Contents:
 
 
 ---
-##Documentation of the Repository
-[Documentation.docx](https://github.com/user-attachments/files/22250876/Documentation.docx)
+
 
 
 ## ✨ Reflection
