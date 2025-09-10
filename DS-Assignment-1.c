@@ -38,21 +38,21 @@ void insertEnd(struct Node** head, int rollNo) {
 // Function to display the list in a nice format
 void displayList(struct Node* head) {
     if (head == NULL) {
-        printf("\n🚨 The linked list is empty.\n");
+        printf("\n The linked list is empty.\n");
         return;
     }
 
-    printf("\n📋 Linked List of Roll Numbers:\n");
-    printf("HEAD → ");
+    printf("\n Linked List of Roll Numbers:\n");
+    printf("HEAD ->");
 
     struct Node* temp = head;
     while (temp != NULL) {
         printf("[%d]", temp->rollNo);
         if (temp->next != NULL)
-            printf(" → ");
+            printf("->");
         temp = temp->next;
     }
-    printf(" → NULL\n");
+    printf("-> NULL\n");
 }
 
 // Function to free memory of the entire list
@@ -81,3 +81,4 @@ int main() {
 
     return 0;
 }
+
