@@ -30,16 +30,25 @@ void insertEnd(struct Node** head, int rollNo) {
 }
 
 // Function to display the list
+// Improved display function
 void displayList(struct Node* head) {
+    if (head == NULL) {
+        printf("The linked list is empty.\n");
+        return;
+    }
+
     struct Node* temp = head;
-    printf("Roll Numbers in Linked List: ");
+    printf("\n📋 Linked List of Roll Numbers:\n");
+    printf("HEAD → ");
     while (temp != NULL) {
-        printf("%d", temp->rollNo);
-        if (temp->next != NULL) printf(" → ");
+        printf("[%d]", temp->rollNo);
+        if (temp->next != NULL)
+            printf(" → ");
         temp = temp->next;
     }
-    printf("\n");
+    printf(" → NULL\n");
 }
+
 
 int main() {
     struct Node* head = NULL;
@@ -54,4 +63,5 @@ int main() {
 
     return 0;
 }
+
 
