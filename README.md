@@ -69,6 +69,9 @@ Contents:
 
 
 ---
+##Documentation of the Repository
+[Documentation.docx](https://github.com/user-attachments/files/22250876/Documentation.docx)
+
 
 ## ✨ Reflection
 Through this project, we learned:
