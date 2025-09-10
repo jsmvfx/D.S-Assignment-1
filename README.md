@@ -63,16 +63,14 @@ void displayList(struct Node* head) {
 
 int main() {
     struct Node* head = NULL;
-
-    // Replace with your team’s roll numbers
     insertEnd(&head, 101); // your roll no
     insertEnd(&head, 102); // teammate 1
     insertEnd(&head, 103); // teammate 2
     insertEnd(&head, 104); // teammate 3
 
-    displayList(head);
+displayList(head);
 
-    return 0;
+return 0;
 }
 oading DS-Assignment-1.c…]()
 
@@ -82,7 +80,7 @@ oading DS-Assignment-1.c…]()
 
 
 
-*(101, 102, 103 with your actual roll numbers)*
+*(101, 102, 103,104)*
 
 ---
 
