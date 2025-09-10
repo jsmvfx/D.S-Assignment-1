@@ -39,8 +39,10 @@ The program creates a linked list where:
 ---
 
 ## 🎨 Figma Diagrams
-- **Diagram File:** [`[figma-diagrams/linked_list_diagram.png`](figma-diagrams/linked_list_diagram.png](https://www.figma.com/design/bgFi4sUR8xhhzqdrJYJA3T/Untitled?node-id=0-1&p=f&t=hfkFim0ejPAuJUQI-0))  
-- **Public Figma Link:** [View Diagram]([https://www.figma.com/file/xxxxx/linked-list-diagram](https://www.figma.com/design/bgFi4sUR8xhhzqdrJYJA3T/Untitled?node-id=0-1&t=hfkFim0ejPAuJUQI-1))
+- **Diagram File:** [`[figma-diagrams/linked_list_diagram.png`]( <img width="1405" height="137" alt="Untitled" src="https://github.com/user-attachments/assets/aaaeb4e5-ba2c-46db-97f9-48ed517e5bc6" />
+
+d_list_diagram.png](https://www.figma.com/design/bgFi4sUR8xhhzqdrJYJA3T/Untitled?node-id=0-1&p=f&t=hfkFim0ejPAuJUQI-0))  
+- **Public Figma Link:** [View Diagram]([[https://www.figma.com/file/xxxxx/linked-list-diagram](https://www.figma.com/design/bgFi4sUR8xhhzqdrJYJA3T/Untitled?node-id=0-1&t=hfkFim0ejPAuJUQI-1)](https://www.figma.com/community/file/1547522998378907705/node-structure))
 
 ---
 
