@@ -1,0 +1,107 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// Node structure
+struct Node {
+    int rollNo;
+    char name[50];
+    float marks;
+    struct Node* next;
+};
+
+// Function to create a new node
+struct Node* createNode(int rollNo, char name[], float marks) {
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->rollNo = rollNo;
+    strcpy(newNode->name, name);
+    newNode->marks = marks;
+    newNode->next = NULL;
+    return newNode;
+}
+
+// Insert at end
+void insertEnd(struct Node** head, int rollNo, char name[], float marks) {
+    struct Node* newNode = createNode(rollNo, name, marks);
+    if (*head == NULL) {
+        *head = newNode;
+        return;
+    }
+    struct Node* temp = *head;
+    while (temp->next != NULL)
+        temp = temp->next;
+    temp->next = newNode;
+}
+
+// Display the list
+void display(struct Node* head) {
+    if (head == NULL) {
+        printf("\nList is empty!\n");
+        return;
+    }
+    printf("\nStudent Records:\n");
+    printf("Roll No\tName\t\tMarks\n");
+    printf("---------------------------------\n");
+    while (head != NULL) {
+        printf("%d\t%-10s\t%.2f\n", head->rollNo, head->name, head->marks);
+        head = head->next;
+    }
+}
+
+// Calculate marks stats
+void calculateMarks(struct Node* head) {
+    if (head == NULL) {
+        printf("\nNo student data available!\n");
+        return;
+    }
+
+    float total = 0, avg = 0, max = head->marks;
+    int count = 0;
+    char topper[50];
+    strcpy(topper, head->name);
+
+    while (head != NULL) {
+        total += head->marks;
+        if (head->marks > max) {
+            max = head->marks;
+            strcpy(topper, head->name);
+        }
+        count++;
+        head = head->next;
+    }
+
+    avg = total / count;
+
+    printf("\nMarks Report:\n");
+    printf("Total Marks of all students: %.2f\n", total);
+    printf("Average Marks: %.2f\n", avg);
+    printf("Highest Marks: %.2f (Topper: %s)\n", max, topper);
+}
+
+// Main function
+int main() {
+    struct Node* head = NULL;
+    int n, roll;
+    char name[50];
+    float marks;
+
+    printf("Enter number of students: ");
+    scanf("%d", &n);
+    int i;
+    for ( i = 0; i < n; i++) {
+        printf("\nEnter details for Student %d:\n", i + 1);
+        printf("Roll Number: ");
+        scanf("%d", &roll);
+        printf("Name: ");
+        scanf("%s", name);
+        printf("Marks: ");
+        scanf("%f", &marks);
+
+        insertEnd(&head, roll, name, marks);
+    }
+
+    display(head);
+    calculateMarks(head);
+
+    return 0;
+}
