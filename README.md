@@ -122,7 +122,9 @@ Contents:
 | Richan Jose         |   101   | Repo setup + Insertion function       |
 | Akash Mathew Thomas |   102   | Display function + Code improvements  |
 | Josemon Tomy        |   103   | Figma diagram + Report preparation    |
-| Richu Francis Se.etc|   104   | Testing + Documentation updates       |
+| Richu Francis       |   104   | Testing                               |
+| Daniel Scaria       |   105   |  Documentation updates                |
+
 
 
 ---
