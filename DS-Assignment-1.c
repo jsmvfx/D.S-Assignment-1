@@ -73,6 +73,7 @@ int main() {
     insertEnd(&head, 6);  // Teammate 1
     insertEnd(&head, 48); // Teammate 2
     insertEnd(&head, 49); // Teammate 3
+     insertEnd(&head, 50); // Teammate 4
 
     displayList(head);
 
@@ -81,4 +82,5 @@ int main() {
 
     return 0;
 }
+
 
